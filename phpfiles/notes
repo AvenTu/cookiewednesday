@@ -1,0 +1,38 @@
+php
+use get as method for a from if the input is not important and does not have to be protected
+Using POST means that the form data won't get appended to the address in the address bar for all to see. 
+if the data is not sensitive then use GET, otherwise use POST.
+
+action of a form sends the data in the form to somewhere.
+Another important attribute of the Form tag is Action. Without Action, your forms won't go anywhere! 
+You can send the form data to another PHP script, the same PHP script, an email address, a CGI script, or any other form of script.
+2 ways to send form data: to itself or to something else.
+
+But the NAME attribute of the Submit buttons comes in very handy. You can use this Name to test if the form was really submitted, or if the user just clicked the refresh button.
+
+To return data from a HTML form element, you use the following strange syntax:
+$_POST['formElement_name'];
+ If you had METHOD = "GET" on your form, then you'd used this instead:
+$username = $_GET['username'];
+
+The reason why the text displays when the page is first loaded is because the script executes whether the button is clicked or not. This is the problem you face when a PHP script is on the same page as the HTML, and is being submitted to itself in the ACTION attribute.
+To check if a submit button was clicked, use this:
+if ( isset( $_POST['Submit1'] ) ) { }
+ isset( ). This is an inbuilt function that checks if a variable has been set or not. 
+
+
+echo date('H M Y');
+
+http://www.homeandlearn.co.uk/php/php4p8.html
+
+require(); includes a php file in another file
+
+array_search($needle,$haystack)  to search through an array
+
+var_dump($_POST);
+
+sorting:
+rsort( ) – Sorts a Scalar array in reverse order
+arsort( ) - Sorts the Values in an Associative array in reverse order
+krsort( ) - Sorts the Keys in an Associative array in reverse order
+normal order is without r
