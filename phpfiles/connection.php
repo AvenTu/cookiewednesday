@@ -5,5 +5,5 @@
 	  {
 	  die('Could not connect: ' . mysql_error());
 	  }
-//--chillax
+
 ?>
