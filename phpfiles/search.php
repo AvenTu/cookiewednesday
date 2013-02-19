@@ -9,11 +9,12 @@
 				searchBar(); 
 
 				?>
-				<!--<ul>
+
+				<ul>
 				
 					<li><a href= ""> n <br>  </a> </li>
 					</ul>
-					-->
+					
 
 	</body>
 </html>
